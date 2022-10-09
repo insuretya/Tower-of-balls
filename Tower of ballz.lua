@@ -21,7 +21,7 @@ Tab:AddButton({
                 b.Anchored = true
             end
         end
-        for i=1,1000 do
+        for i=1,600 do
             local v1 = "Transform"
             local v2 = "Ball"
             local event = game:GetService("ReplicatedStorage").Events.Ball.ControlRE
