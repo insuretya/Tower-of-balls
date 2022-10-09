@@ -21,7 +21,7 @@ Tab:AddButton({
                 b.Anchored = true
             end
         end
-        for i=1,500 do
+        for i=1,1000 do
             local v1 = "Transform"
             local v2 = "Ball"
             local event = game:GetService("ReplicatedStorage").Events.Ball.ControlRE
@@ -33,6 +33,7 @@ Tab:AddButton({
                 d:Destroy()
             end
         end
+        wait(4)
         for a,b in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
             if b:IsA("BasePart") then
                 b.Anchored = false
@@ -62,11 +63,3 @@ Tab:AddButton({
       	print("they have no nuts")
   	end    
 })
-
-
-
-
-
-
-
-
